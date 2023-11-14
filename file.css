@@ -6,7 +6,7 @@ body {
         }
 
 header {
-            background-color: #333;
+            background-color: #3A008A;
             color: #fff;
             text-align: center;
             padding: 1em 0;
@@ -15,7 +15,7 @@ main {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #0A0B0B;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
         }
