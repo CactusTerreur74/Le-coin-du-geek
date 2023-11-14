@@ -2,12 +2,12 @@ body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #0A0B0B;
         }
 
 header {
-            background-color: #3A008A;
-            color: #fff;
+            background-color: #333;
+            color: #3A008A;
             text-align: center;
             padding: 1em 0;
         }
@@ -15,7 +15,7 @@ main {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #0A0B0B;
+            background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
         }
@@ -30,6 +30,6 @@ a {
             text-decoration: none;
         }
 
-        a:hover {
+a:hover {
             text-decoration: underline;
         }
