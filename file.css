@@ -33,3 +33,14 @@ a {
 a:hover {
             text-decoration: underline;
         }
+.Img {
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.etsystatic.com/15320292/r/il/304b55/3215720991/il_fullxfull.3215720991_fdas.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 5vmin;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
