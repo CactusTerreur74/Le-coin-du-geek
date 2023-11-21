@@ -32,8 +32,9 @@ a:hover {
     background-position: center;
     background-size: cover;
     color: #333;
-    padding: 3vmin;
+    padding: 2vmin;
     text-align: center;
+font-family: 'Avant Garde Gothic'
     margin-left: auto;
     margin-right: auto;
 }
