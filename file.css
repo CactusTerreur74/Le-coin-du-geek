@@ -27,6 +27,11 @@ a {
 a:hover {
             text-decoration: underline;
         }
+.Menu {
+position: absolute;
+    right: 2vmin;
+    width: 4vw;
+}
 .Img {
     background-color: #3A008A;
     background-position: center;
