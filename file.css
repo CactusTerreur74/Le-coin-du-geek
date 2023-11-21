@@ -28,10 +28,10 @@ a:hover {
             text-decoration: underline;
         }
 .Img {
-    background-color: #333;
+    background-color: #3A008A;
     background-position: center;
     background-size: cover;
-    color: #3A008A;
+    color: #333;
     padding: 5vmin;
     text-align: center;
     margin-left: auto;
