@@ -29,8 +29,8 @@ a:hover {
         }
 .Menu {
 position: absolute;
-    right: 2vmin;
-    width: 4vw;
+    left: 2vmin;
+    width: 2vw;
 }
 .Img {
     background-color: #3A008A;
