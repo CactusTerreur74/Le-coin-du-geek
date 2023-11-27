@@ -1,17 +1,3 @@
-Reprenant le système de missions et Portable Ops et Peace Walker (ce qui se justifie par le fait qu'on
-incarne de nouveau le personnage de Big Boss), The Phantom Pain offre une expérience cependant très différente,
-avec une carte cette fois-ci open world et répartie sur deux régions.
-Rien à redire en terme de gameplay : Metal Gear Solid V : The Phantom Pain est l'aboutissement
-de la formule Metal Gear. Le jeu propose une gameplay fluide au rythme dynamique, des missions variées,
-et une histoire prenante (même si parfois trop surréaliste).
-
-Seul bémol : on ne découvrira jamais comment se termine le jeu, puisque sa sortie prématurée
-a empêché les développeurs de terminer la mission finale.
-
-Malgré ce léger défaut, le jeu reste tout simplement exceptionnel, d'autant qu'il offre un
-très grand nombre d'heures de jeu pour un prix très abordable.
-
-
 ---{ Graphics }---
 ☐ You forget what reality is
 ☐ Beautiful
@@ -30,18 +16,18 @@ très grand nombre d'heures de jeu pour un prix très abordable.
 ☐ Just don't
 
 ---{ Audio }---
-☑ Eargasm
-☐ Very good
+☐ Eargasm
+☑ Very good
 ☐ Good
 ☐ Not too bad
 ☐ Bad
 ☐ I'm now deaf
 
 ---{ Audience }---
-☐ Kids
+☑ Kids
 ☑ Teens
 ☑ Adults
-☐ Grandma
+☑ Grandma
 
 ---{ PC Requirements }---
 ☐ Check if you can run paint
@@ -54,32 +40,32 @@ très grand nombre d'heures de jeu pour un prix très abordable.
 ---{ Difficulty }---
 ☐ Just press 'W'
 ☐ Easy
-☐ Easy to learn / Hard to master
-☑ Significant brain usage
+☑ Easy to learn / Hard to master
+☐ Significant brain usage
 ☐ Difficult
 ☐ Dark Souls
 
 ---{ Grind }---
-☐ Nothing to grind
+☑ Nothing to grind
 ☐ Only if u care about leaderboards/ranks
 ☐ Isn't necessary to progress
-☑ Average grind level
+☐ Average grind level
 ☐ Too much grind
 ☐ You'll need a second life for grinding
 
 ---{ Story }---
 ☐ No Story
-☐ Some lore
+☑ Some lore
 ☐ Average
-☑ Good
+☐ Good
 ☐ Lovely
 ☐ It'll replace your life
 
 ---{ Game Time }---
 ☐ Long enough for a cup of coffee
-☐ Short
+☑ Short
 ☐ Average
-☑ Long
+☐ Long
 ☐ To infinity and beyond
 
 ---{ Price }---
