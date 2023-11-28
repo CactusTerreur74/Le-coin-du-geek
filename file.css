@@ -59,6 +59,41 @@ a:hover {
     height: inherit;
     flex-direction: column;
 }
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2vh 5vw;
+    width: 90vw;
+    border-bottom: solid var(--text) 0.003mm;
+    justify-content: space-between;
+    display: flex;
+    place-items: center;
+
+    background-color: var(--background);
+    height: 4vh;
+    min-height: 50px;
+}
+
+header .title {
+    display: flex;
+}
+header .title a {
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    column-gap: 2em;
+}
+
+.navbar a {
+    font-weight: 500;
+    font-size: larger;
+}
 
 .Img {
     background-color: #3A008A;
