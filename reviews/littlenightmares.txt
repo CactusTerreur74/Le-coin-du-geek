@@ -1,7 +1,7 @@
 ---{ Graphics }---
 ☐ You forget what reality is
-☐ Beautiful
-☑ Good
+☑ Beautiful
+☐ Good
 ☐ Decent
 ☐ Bad
 ☐ Don‘t look too long at it
@@ -24,15 +24,15 @@
 ☐ I'm now deaf
 
 ---{ Audience }---
-☐ Kids
+☑ Kids
 ☑ Teens
 ☑ Adults
-☐ Grandma
+☑ Grandma
 
 ---{ PC Requirements }---
 ☐ Check if you can run paint
-☑ Potato
-☐ Decent
+☐ Potato
+☑ Decent
 ☐ Fast
 ☐ Rich boi
 ☐ Ask NASA if they have a spare computer
@@ -46,39 +46,39 @@
 ☐ Dark Souls
 
 ---{ Grind }---
-☐ Nothing to grind
+☑ Nothing to grind
 ☐ Only if u care about leaderboards/ranks
 ☐ Isn't necessary to progress
-☑ Average grind level
+☐ Average grind level
 ☐ Too much grind
 ☐ You'll need a second life for grinding
 
 ---{ Story }---
 ☐ No Story
-☐ Some lore
+☑ Some lore
 ☐ Average
-☑ Good
+☐ Good
 ☐ Lovely
 ☐ It'll replace your life
 
 ---{ Game Time }---
 ☐ Long enough for a cup of coffee
-☐ Short
+☑ Short
 ☐ Average
-☑ Long
+☐ Long
 ☐ To infinity and beyond
 
 ---{ Price }---
 ☐ It's free!
-☑ Worth the price
-☐ If it's on sale
+☐ Worth the price
+☑ If it's on sale
 ☐ If u have some spare money left
 ☐ Not recommended
 ☐ You could also just burn your money
 
 ---{ Bugs }---
-☐ Never heard of
-☑ Minor bugs
+☑ Never heard of
+☐ Minor bugs
 ☐ Can get annoying
 ☐ ARK: Survival Evolved
 ☐ The game itself is a big terrarium for bugs
@@ -92,5 +92,5 @@
 ☐ 6
 ☐ 7
 ☐ 8
-☑ 9
-☐ 10
+☐ 9
+☑ 10

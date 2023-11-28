@@ -1,7 +1,7 @@
 ---{ Graphics }---
 ☐ You forget what reality is
-☐ Beautiful
-☑ Good
+☑ Beautiful
+☐ Good
 ☐ Decent
 ☐ Bad
 ☐ Don‘t look too long at it
@@ -31,8 +31,8 @@
 
 ---{ PC Requirements }---
 ☐ Check if you can run paint
-☑ Potato
-☐ Decent
+☐ Potato
+☑ Decent
 ☐ Fast
 ☐ Rich boi
 ☐ Ask NASA if they have a spare computer
@@ -40,8 +40,8 @@
 ---{ Difficulty }---
 ☐ Just press 'W'
 ☐ Easy
-☐ Easy to learn / Hard to master
-☑ Significant brain usage
+☑ Easy to learn / Hard to master
+☐ Significant brain usage
 ☐ Difficult
 ☐ Dark Souls
 
@@ -57,9 +57,9 @@
 ☐ No Story
 ☐ Some lore
 ☐ Average
-☑ Good
+☐ Good
 ☐ Lovely
-☐ It'll replace your life
+☑ It'll replace your life
 
 ---{ Game Time }---
 ☐ Long enough for a cup of coffee
@@ -77,8 +77,8 @@
 ☐ You could also just burn your money
 
 ---{ Bugs }---
-☐ Never heard of
-☑ Minor bugs
+☑ Never heard of
+☐ Minor bugs
 ☐ Can get annoying
 ☐ ARK: Survival Evolved
 ☐ The game itself is a big terrarium for bugs
@@ -92,5 +92,5 @@
 ☐ 6
 ☐ 7
 ☐ 8
-☑ 9
-☐ 10
+☐ 9
+☑ 10
