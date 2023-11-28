@@ -4,9 +4,10 @@ body {
             padding: 0;
             background-color: #0A0B0B;
         }
-
+    
 main {
             max-width: 800px;
+            border: 1vmin solid;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
@@ -15,6 +16,7 @@ main {
         }
 main2 {
             max-width: 800px;
+            border: 1vmin solid;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
@@ -23,6 +25,7 @@ main2 {
         }
 main3 {
             max-width: 800px;
+            border: 1vmin solid;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
@@ -43,11 +46,55 @@ a {
 a:hover {
             text-decoration: underline;
         }
-.Menu {
-position: absolute;
-    left: 2vmin;
-    width: 2vw;
+#left-tab {
+    display: flex;
+    width: 10vw;
+    min-height: 90vh;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+    border-right: 1px solid black;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: inherit;
+    flex-direction: column;
 }
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2vh 5vw;
+    width: 90vw;
+    border-bottom: solid var(--text) 0.003mm;
+    justify-content: space-between;
+    display: flex;
+    place-items: center;
+
+    background-color: var(--background);
+    height: 4vh;
+    min-height: 50px;
+}
+
+header .title {
+    display: flex;
+}
+header .title a {
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    column-gap: 2em;
+}
+
+.navbar a {
+    font-weight: 500;
+    font-size: larger;
+}
+
 .Img {
     background-color: #3A008A;
     background-position: center;
@@ -58,4 +105,18 @@ position: absolute;
 font-family: 'Avant Garde Gothic'
     margin-left: auto;
     margin-right: auto;
+}
+.lienactu {
+    background: #2cc7d3;
+    text-decoration: none;
+    display: inline-block;
+    width: 15vmin;
+    margin-right: 1vmin;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    margin-left: 1vmin;
+    text-align: center;
+    line-height: 3;
+    color: black;
+    border-radius: 5vmin;
 }
