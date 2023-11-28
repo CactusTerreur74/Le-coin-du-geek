@@ -47,7 +47,6 @@ a:hover {
             text-decoration: underline;
         }
 #left-tab {
-position: absolute;
     display: flex;
     width: 10vw;
     min-height: 90vh;
