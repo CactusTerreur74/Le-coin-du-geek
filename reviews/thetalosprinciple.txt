@@ -16,23 +16,23 @@
 ☐ Just don't
 
 ---{ Audio }---
-☑ Eargasm
+☐ Eargasm
 ☐ Very good
-☐ Good
+☑ Good
 ☐ Not too bad
 ☐ Bad
 ☐ I'm now deaf
 
 ---{ Audience }---
-☑ Kids
+☐ Kids
 ☑ Teens
 ☑ Adults
 ☐ Grandma
 
 ---{ PC Requirements }---
 ☐ Check if you can run paint
-☐ Potato
-☑ Decent
+☑ Potato
+☐ Decent
 ☐ Fast
 ☐ Rich boi
 ☐ Ask NASA if they have a spare computer
@@ -41,23 +41,23 @@
 ☐ Just press 'W'
 ☐ Easy
 ☐ Easy to learn / Hard to master
-☐ Significant brain usage
-☑ Difficult
+☑ Significant brain usage
+☐ Difficult
 ☐ Dark Souls
 
 ---{ Grind }---
-☐ Nothing to grind
+☑ Nothing to grind
 ☐ Only if u care about leaderboards/ranks
 ☐ Isn't necessary to progress
-☑ Average grind level
+☐ Average grind level
 ☐ Too much grind
 ☐ You'll need a second life for grinding
 
 ---{ Story }---
 ☐ No Story
 ☐ Some lore
-☐ Average
-☑ Good
+☑ Average
+☐ Good
 ☐ Lovely
 ☐ It'll replace your life
 
@@ -91,6 +91,6 @@
 ☐ 5
 ☐ 6
 ☐ 7
-☐ 8
-☑ 9
+☑ 8
+☐ 9
 ☐ 10
