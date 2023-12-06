@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" data-theme="dark">
     <head>
         <meta charset="utf-8">
         <title>Le coin du geek</title>
@@ -8,27 +8,44 @@
         <link rel="icon" href="https://img.freepik.com/vecteurs-premium/canard-jaune-cool-lunettes-soleil_136351-284.jpg">
     </head>
     <body>
-        <div class="Img"><h1>LE COIN DU GEEK</h1></div>
-        <img src="boutonmenu.png" alt="Menu" class="Menu">
-    <main>
-        <p>Bienvenue sur le site de quiz de culture variée. Testez vos connaissances dans divers domaines!</p>
-        <p>Commencez dès maintenant en choisissant une catégorie :</p>
-
-        <ul>
-            <li><a href="#">Histoire</a></li>
-            <li><a href="#">Science</a></li>
-            <li><a href="#">Art et Culture</a></li>
-        </ul>
-    </main>
-    <div id="main2">
-    	<h3>Actualités</h3>
-	  	<a href="" class="lienactu">Action/Aventure</a>
-    	<a href="" class="lienactu">Comédie</a>
-	    <a href="" class="lienactu">Romance</a>
-    	<a href="" class="lienactu">Suspense</a>
-        <a href="" class="lienactu">Fantastique</a>
-        <a href="" class="lienactu">Tranche de vie</a>
-		<a href="" class="lienactu">Sport</a>
-		<a href="" class="lienactu">Autres</a>
-</body>
+    <header>
+        <button id="menu-button" onclick="panel_click()">
+            <img src="boutonmenu.png" alt="Menu" class="Menu">
+        </button>
+        <h1>LE COIN DU GEEK</h1>
+        <button id="theme-button" onclick="theme_choice()">
+            <img id="theme-img" src="Theme.png">
+        </button>
+    </header>
+    <div id="content">
+        <div id="left-tab" style="display: none;">
+            <ul>
+                <li><a href="#">Actualités</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Quiz</a></li>
+            </ul>
+        </div>
+        <main>
+            <div class="scroll"><p>Never gonna give you up, Never gonna let you down, Never gonna run around and desert you, Never gonna make you cry, Never gonna say goodbye, Never gonna tell a lie and hurt you.</p></div>
+            <div id="Box1">
+                <p>Bienvenue sur le site de quiz de culture variée. Testez vos connaissances dans divers domaines!</p>
+                <p>Commencez dès maintenant en choisissant une catégorie :</p>
+            </div>
+            <div id="Box2">
+                <h3>Actualités</h3>
+                <a href="" class="lienactu">Action/Aventure</a>
+                <a href="" class="lienactu">Comédie</a>
+                <a href="" class="lienactu">Romance</a>
+                <a href="" class="lienactu">Suspense</a>
+                <a href="" class="lienactu">Fantastique</a>
+                <a href="" class="lienactu">Tranche de vie</a>
+                <a href="" class="lienactu">Sport</a>
+                <a href="" class="lienactu">Autres</a>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>Sources</p>
+    </footer>
+    </body>
 </html>
