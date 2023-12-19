@@ -181,7 +181,7 @@ a:hover {
     background: #99aab5;
     text-decoration: none;
     display: inline-block;
-    width: 15vmin;
+    width: 15vw;
     margin-right: 1vmin;
     margin-top: 1vmin;
     margin-bottom: 1vmin;
@@ -190,6 +190,17 @@ a:hover {
     line-height: 3;
     color: black;
     border-radius: 5vmin;
+	padding: 10px;
+}
+
+.lienactu p {
+	color: black;
+	margin: 0;
+}
+
+#actu {
+	width: 10vw;
+	height: 22vh;
 }
 
 .Menu {
