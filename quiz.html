@@ -1,72 +1,67 @@
-<html>
+<html lang="fr" data-theme="dark">
 
 <head>
     <meta charset="UTF-8" />
-    <title> Le Coin du Geek - Quizz</title>
+    <title> Le Coin du Geek - Quiz</title>
     <link href="file.css" rel="stylesheet" type="text/css" />
+    <script src="javascript.js"></script>
     <link rel="icon" href="https://img.freepik.com/vecteurs-premium/canard-jaune-cool-lunettes-soleil_136351-284.jpg">
+    <meta name="Site" content="" />
 </head>
 
 <body>
-    Qui est le CEO d'openAI lors du développement de Chatgpt ? <select id="choix" name="qcm1" onchange="selection()">
+    <header>
+        <button id="menu-button" onclick="panel_click()">
+            <img src="boutonmenu.png" alt="Menu" class="Menu">
+        </button>
+        <h1>LE COIN DU GEEK</h1>
+        <button id="theme-button" onclick="theme_choice()">
+            <img id="theme-img" src="Theme.png">
+        </button>
+    </header>
+    <h1>Questions sur l'informatique :</h1>
+    <div class="questions">
+        <p>Qui est le CEO d'openAI lors du développement de Chatgpt ? </p>
+        <select id="choix" name="qcm1" onchange="selection()">
+            <option value="a">Réponse</option>
+            <option value="0">Sam Altman </option>
+            <option value="1">Sam Aultman </option>
+            <option value="2">Saul Goodman </option>
+            <option value="3">Saul Ctrlman </option>
+        </select>
+    </div>
 
+    <div class="questions">
+        <p>Le coin du geek est le meilleur site !</p>
+        <select id="choix2" name="qcm1" onchange="selection2()">
+            <option value="a">Réponse</option>
+            <option value="0"> Vrai </option>
+            <option value="1"> Vrai </option>
+        </select>
+    </div>
+    <div class="questions">
+        <p>Quand a été créé Linux ?</p>
+    <FORM>
+        <input type="text" name="Valeur_Reponse" id="Id_Reponse" value="" />
+        <input type="button" value="Valider" onclick="selection3();" />
+    </FORM>
+    <input type="button" value="Résultats partie 1" onclick="resultat1()" />
+    </div>
+
+    <h1>Questions sur les jeux vidéos</h1>
+    <div class="questions">
+    <p>Quel est le meilleur jeu existant ?</p>
+    <select id="choix" name="qcm1" onchange="selection()">
         <option value="a">Réponse</option>
         <option value="0">Sam Altman </option>
         <option value="1">Sam Aultman </option>
         <option value="2">Saul Goodman </option>
         <option value="3">Saul Ctrlman </option>
     </select>
-
-    Le coin du geek est le meilleur site ! <select id="choix2" name="qcm1" onchange="selection2()">
-        <option value="a">Réponse</option>
-        <option value="0"> Vrai </option>
-        <option value="1"> Vrai </option>
-    </select>
-
-    Comment s'appelle le ministère de l'air du IIIe Reich? (écrire en majuscules):<FORM>
-        <input type="text" name="Valeur_Reponse" id="Id_Reponse" value="" />
-        <input type="button" value="Valider" onclick="selection3();" />
-    </FORM>
-    <input type="button" value="Résultats" onclick="resultat()" />
-
-    <script>
-        var score = 0
-        function selection() {
-            const selecteur = document.getElementById("choix");
-            const monChoix = selecteur[selecteur.selectedIndex];
-            if (monChoix.value == "0") {
-                alert("Bravo ! C'est la bonne réponse");
-                score = score + 1;
-            }
-            else {
-                alert("Ce n'est pas la bonne réponse !");
-            }
-        }
-        function selection2() {
-            const selecteur = document.getElementById("choix2");
-            const monChoix2 = selecteur[selecteur.selectedIndex];
-            if ((monChoix2.value == "0") || (monChoix2.value == "1")) {
-                alert("Bravo ! C'est la bonne réponse");
-                score = score + 1;
-            }
-            else {
-                alert("Ce n'est pas la bonne réponse !");
-            }
-        }
-        function selection3() {
-            var reponse = document.getElementById("Id_Reponse").value;
-            if (reponse == "REICHSLUFTFAHRTMINISTERIUM") {
-                alert("Bravo ! C'est la bonne réponse !")
-                score = score + 1;
-            }
-            else {
-                alert("Ce n'est pas la bonne réponse. Vous êtes sûr de l'avoir bien écrit ?")
-            }
-        }
-        function resultat() {
-            alert("Votre résultat est de " + score + " points !")
-        }
-    </script>
+    </div>
+    <footer>
+        <p>Sources</p>
+    </footer>
 </body>
 
 </html>
