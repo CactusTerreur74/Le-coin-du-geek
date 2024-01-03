@@ -2,7 +2,7 @@ html[data-theme="light"] {
     --text: #000000;
     --background: #ffffff;
     --primary: #99aab5;
-    --secondary: #23272a;
+    --secondary: #585b5e;
     --accent: #7289da;
 }
 
@@ -123,10 +123,10 @@ button:hover {
     place-content: center;
     place-items: center;
     text-align: left;
-    border-right: 1px solid black;
+    border-right: 2px solid black;
     padding-left: 1vw;
     padding-right: 1vw;
-    height: inherit;
+    height: 150vh;
     flex-direction: column;
 }
 
@@ -181,30 +181,31 @@ main {
     }
 }
 
-Box1 {
-    max-width: 800px;
-    border: 1vmin solid;
+#Box1 {
+    max-width: 125vmin;
+    border: 2px solid;
     margin: 20px auto;
     padding: 20px;
-    background-color: var(--background);
+    background-color: var(--primary);
     place-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
-Box2 {
-    max-width: 800px;
-    border: 1vmin solid;
+#Box2 {
+    max-width: 125vmin;
+    border: 2px solid;
     margin: 20px auto;
     padding: 20px;
-    background-color: var(--background);
+    background-color: var(--primary);
     place-items: center;
+    text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
 .lienactu {
-    background: #99aab5;
+    background: var(--secondary);
     text-decoration: none;
     display: inline-block;
     width: 15vw;
@@ -229,7 +230,7 @@ Box2 {
 	height: 22vh;
 }
 
-Box3 {
+#Box3 {
     max-width: 800px;
     border: 1vmin solid;
     margin: 20px auto;
@@ -242,6 +243,10 @@ Box3 {
 
 h1 {
     color: var(--text);
+}
+
+h2 {
+    color : var(--text)
 }
 
 h3 {

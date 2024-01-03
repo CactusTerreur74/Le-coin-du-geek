@@ -27,36 +27,56 @@ function theme_choice() {
 
 /*Partie du Quiz*/
 var score1 = 0
+var x = 0
 function selection() {
     const selecteur = document.getElementById("choix");
     const monChoix = selecteur[selecteur.selectedIndex];
-    if (monChoix.value == "0") {
+    if (x==1){
+        return alert("Vous avez déjà répondu!");
+    } else {
+        x = 1
+        if (monChoix.value == "0") {
         alert("Bravo ! C'est la bonne réponse");
         score1 = score1 + 1;
-    }
-    else {
+        }
+        else {
         alert("Ce n'est pas la bonne réponse !");
+        }
     }
 }
+
+var y = 0
 function selection2() {
     const selecteur = document.getElementById("choix2");
     const monChoix2 = selecteur[selecteur.selectedIndex];
-    if ((monChoix2.value == "0") || (monChoix2.value == "1")) {
+    if (y==1){
+        return alert("Vous avez déjà répondu!");
+    } else {
+        y = 1
+        if ((monChoix2.value == "0") || (monChoix2.value == "1")) {
         alert("Bravo ! C'est la bonne réponse");
         score1 = score1 + 1;
-    }
-    else {
+        }
+        else {
         alert("Ce n'est pas la bonne réponse !");
+        }
     }
 }
+
+var z = 0
 function selection3() {
     var reponse = document.getElementById("Id_Reponse").value;
-    if (reponse == "1991") {
+    if (z==1){
+        return alert("Vous avez déjà répondu!");
+    } else {
+        z = 1
+        if (reponse == "1991") {
         alert("Bravo ! C'est la bonne réponse !")
         score1 = score1 + 1;
-    }
-    else {
+        }
+        else {
         alert("Ce n'est pas la bonne réponse. Vous êtes sûr de l'avoir bien écrit ?")
+        }
     }
 }
 function resultat1() {
