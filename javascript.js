@@ -52,9 +52,29 @@ function selection3() {
     const selecteur = document.getElementById("choix4");
     const monChoix4 = selecteur[selecteur.selectedIndex];
     if (monChoix4.value == "0") {
-        score1 = score1 + 1;
+        score2 = score2 + 1;
     }
 }
+
+function selection5() {
+    const selecteur = document.getElementById("choix5");
+    const monChoix5 = selecteur[selecteur.selectedIndex];
+    if ((monChoix5.value == "0") || (monChoix5.value == "1")) {
+        score21 = score2 + 1;
+    }
+}
+
+function selection6() {
+    var reponse = document.getElementById("Id_Reponse6").value;
+    if (reponse == "Minecraft") {
+        score2 = score2 + 1;
+    }
+ }
 function resultat1() {
     alert("Votre résultat est de " + score1 + " points sur la partie sur l'informatique !")
 }
+
+function resultat2() {
+    alert("Votre résultat est de " + score2 + " points sur la partie sur le gaming !")
+}
+
