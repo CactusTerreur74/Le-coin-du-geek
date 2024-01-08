@@ -8,10 +8,10 @@ html[data-theme="light"] {
 
 html[data-theme="dark"] {
     --text: #ffffff;
-    --background: #2c2f33;
-    --primary: #23272a;
-    --secondary: #99aab5;
-    --accent: #7289da;
+    --background: #2c3036;
+    --primary: #2c4252;
+    --secondary: #2d5775;
+    --accent: #596db6;
 }
 
 body {
