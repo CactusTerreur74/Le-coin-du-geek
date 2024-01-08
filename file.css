@@ -24,9 +24,9 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    padding: 2vh 5vw;
+    padding: 1.5em 5vw; /* Ajustement de la taille du padding */
     width: 90vw;
-    border-bottom: solid var(--text) 0.003mm;
+    border-bottom: solid var(--text) 1px; /* Ajustement de la taille de la bordure */
     justify-content: space-between;
     display: flex;
     place-items: center;
@@ -35,31 +35,28 @@ header {
     min-height: 50px;
 }
 
-header .title {
-    display: flex;
-}
-
 header .title a {
     font-weight: 800;
-    font-size: x-large;
+    font-size: 1.5em; /* Ajustement de la taille du texte */
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
     place-items: center;
-    column-gap: 2em;
+    column-gap: 1.5em; /* Ajustement de l'espacement entre les éléments */
 }
 
 .navbar a {
     font-weight: 500;
-    font-size: larger;
+    font-size: 1.2em; /* Ajustement de la taille du texte */
 }
 
 button {
     background-color: var(--primary);
     border-radius: 6px;
     border: 1px solid transparent;
+    padding: 0.5em 1em; /* Ajustement de la taille du padding */
 }
 
 button:hover {
@@ -75,8 +72,8 @@ button:hover {
 }
 
 .home {
-    height: 9.75vh;
-    width: 4vw;
+    height: 3em;
+    width: 3em;
 }
 
 #menu-button {
@@ -88,8 +85,8 @@ button:hover {
 }
 
 .menu {
-    height: 9.75vh;
-    width: 4vw;
+    height: 3em;
+    width: 3em;
 }
 
 #theme-button {
@@ -102,11 +99,12 @@ button:hover {
 
 .theme {
     margin: 0;
-    width: 2em;
+    height: 3em;
+    width: 3em;
 }
 
 #content {
-    padding-top: max(8vh, calc(4vh + 50px));
+    padding-top: max(6vh, calc(2vh + 50px));
     display: flex;
     flex-direction: row;
     place-content: center;
@@ -119,14 +117,14 @@ button:hover {
 #left-tab {
     display: flex;
     width: 10vw;
-    min-height: 90vh;
+    min-height: 80vh;
     place-content: center;
     place-items: center;
     text-align: left;
     border-right: 2px solid black;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    height: 150vh;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 130vh;
     flex-direction: column;
 }
 
@@ -136,7 +134,7 @@ main {
 
 .scroll {
     color: var(--text);
-    padding: 5px;
+    padding: 0.5em;
     overflow: hidden;
 }
 
@@ -182,10 +180,10 @@ main {
 }
 
 #Box1 {
-    max-width: 125vmin;
+    max-width: 60vw;
     border: 2px solid;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 2em auto;
+    padding: 2em;
     background-color: var(--primary);
     place-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -193,10 +191,10 @@ main {
 }
 
 #Box2 {
-    max-width: 125vmin;
+    max-width: 60vw;
     border: 2px solid;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 2em auto;
+    padding: 2em;
     background-color: var(--primary);
     place-items: center;
     text-align: center;
@@ -231,10 +229,10 @@ main {
 }
 
 #Box3 {
-    max-width: 800px;
+    max-width: 60vw;
     border: 1vmin solid;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 2em auto;
+    padding: 2em;
     background-color: var(--background);
     place-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
