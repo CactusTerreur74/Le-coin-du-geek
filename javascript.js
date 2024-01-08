@@ -27,58 +27,34 @@ function theme_choice() {
 
 /*Partie du Quiz*/
 var score1 = 0
-var x = 0
-function selection() {
-    const selecteur = document.getElementById("choix");
+function selection1() {
+    const selecteur = document.getElementById("choix1");
     const monChoix = selecteur[selecteur.selectedIndex];
-    if (x==1){
-        return alert("Vous avez déjà répondu!");
-    } else {
-        x = 1
-        if (monChoix.value == "0") {
-        alert("Bravo ! C'est la bonne réponse");
+    if (monChoix.value == "0") {
         score1 = score1 + 1;
-        }
-        else {
-        alert("Ce n'est pas la bonne réponse !");
-        }
     }
 }
-
-var y = 0
 function selection2() {
     const selecteur = document.getElementById("choix2");
     const monChoix2 = selecteur[selecteur.selectedIndex];
-    if (y==1){
-        return alert("Vous avez déjà répondu!");
-    } else {
-        y = 1
-        if ((monChoix2.value == "0") || (monChoix2.value == "1")) {
-        alert("Bravo ! C'est la bonne réponse");
+    if ((monChoix2.value == "0") || (monChoix2.value == "1")) {
         score1 = score1 + 1;
-        }
-        else {
-        alert("Ce n'est pas la bonne réponse !");
-        }
     }
-}
 
-var z = 0
+}
 function selection3() {
     var reponse = document.getElementById("Id_Reponse").value;
-    if (z==1){
-        return alert("Vous avez déjà répondu!");
-    } else {
-        z = 1
-        if (reponse == "1991") {
-        alert("Bravo ! C'est la bonne réponse !")
+    if (reponse == "1991") {
         score1 = score1 + 1;
-        }
-        else {
-        alert("Ce n'est pas la bonne réponse. Vous êtes sûr de l'avoir bien écrit ?")
-        }
+    }
+ }
+ function selection4() {
+    const selecteur = document.getElementById("choix4");
+    const monChoix4 = selecteur[selecteur.selectedIndex];
+    if (monChoix4.value == "0") {
+        score1 = score1 + 1;
     }
 }
 function resultat1() {
-    alert("Votre résultat est de " + score1 + " points !")
+    alert("Votre résultat est de " + score1 + " points sur la partie sur l'informatique !")
 }
