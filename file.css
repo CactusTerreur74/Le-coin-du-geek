@@ -47,6 +47,13 @@ header .title a {
     column-gap: 1.5em; /* Ajustement de l'espacement entre les éléments */
 }
 
+.navbar2 {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    column-gap: 1.5em; /* Ajustement de l'espacement entre les éléments */
+}
+
 .navbar a {
     font-weight: 500;
     font-size: 1.2em; /* Ajustement de la taille du texte */
@@ -126,6 +133,12 @@ button:hover {
     padding-right: 1em;
     height: 130vh;
     flex-direction: column;
+}
+
+#left-tab a {
+    color: var(--text);
+    font-size: 1.4em; /* Ajustement de la taille du texte */
+    margin-bottom: 1em; /* Ajustement de la marge en bas */
 }
 
 main {
