@@ -111,6 +111,7 @@ button:hover {
 }
 
 #content {
+    margin: 4vh;
     padding-top: max(6vh, calc(2vh + 50px));
     display: flex;
     flex-direction: row;
